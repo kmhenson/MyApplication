@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kmhenson.myapplication.MainActivity"
+    android:background = "#FCE4EC"
+
+   >
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jane Austen Books"
+            android:textStyle = "bold"
+            android:id="@+id/books_text_view"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:textSize="40sp"/>
+
+
+    <ImageView
+        android:id="@+id/pride_image_view"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_below  ="@id/sense_image_view"
+        android:src= "@drawable/pride"
+        android:background="#C8E6C9"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/pride_image_view"
+        android:layout_alignTop = "@id/pride_image_view"
+
+        android:text="Published in 1813, Pride and Prejudice follows the story of wealthy Elizabeth Bennet and her sisters in a witty romance novel."
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/emma_image_view"
+        android:src="@drawable/emma"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:background="#C8E6C9"
+        android:layout_below="@id/mans_image_view"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/emma_image_view"
+            android:layout_alignTop = "@id/emma_image_view"
+
+            android:text="Published in 1815, Emma is about the wealthy and precocious Emma Woodhouse who takes up matchmaking in a series of misadventures."
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/persuasion_image_view"
+            android:src="@drawable/persuasion"
+            android:layout_width="100dp"
+            android:layout_height="195dp"
+            android:background="#C8E6C9"
+            android:layout_below="@id/emma_image_view"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/persuasion_image_view"
+            android:layout_alignTop = "@id/persuasion_image_view"
+            android:text="Published in 1815, Persuasion is about Anne Elliot and her family dealing with financial difficulty and the risk of losing their once magnificent home."
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/sense_image_view"
+            android:src="@drawable/sense"
+            android:layout_width="100dp"
+            android:layout_height="95dp"
+            android:background="#C8E6C9"
+            android:layout_below="@id/books_text_view"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sense_image_view"
+            android:layout_alignTop = "@id/sense_image_view"
+            android:text="Published in 1811, Sense and Sensibility is about Elinor Dashwood who, after being asked to stay with wealthy relatives, is reluctant to leave the brother-in-law she has become quite attached to."
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/mans_image_view"
+            android:src="@drawable/mansfield"
+            android:layout_width="100dp"
+            android:layout_height="95dp"
+            android:background="#C8E6C9"
+            android:layout_below="@id/pride_image_view"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mans_image_view"
+            android:layout_alignTop = "@id/mans_image_view"
+            android:text="Published in 1814, Mansfield Park is lead by Fanny (Frances O'Conner) who has been mistreated by her wealthy relatives, but everything changed when Mary Crawford and her brother arrive."
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
